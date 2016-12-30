@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LineChartApp2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0EAE63C81E1714A50048F2CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0EAE63E71E1714A50048F2CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0EAE63F21E1714A60048F2CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
