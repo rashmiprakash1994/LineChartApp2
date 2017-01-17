@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E8C2AB91E253CE20014BFBF /* Sleep on it.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E8C2AB81E253CE20014BFBF /* Sleep on it.jpg */; };
+		0E8C2ABB1E253D4C0014BFBF /* Sleep on it2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E8C2ABA1E253D4C0014BFBF /* Sleep on it2.jpg */; };
 		0EAE63CE1E1714A50048F2CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE63CD1E1714A50048F2CA /* main.m */; };
 		0EAE63D11E1714A50048F2CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE63D01E1714A50048F2CA /* AppDelegate.m */; };
 		0EAE63D41E1714A50048F2CA /* LineChartApp2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE63D21E1714A50048F2CA /* LineChartApp2.xcdatamodeld */; };
-		0EAE63D71E1714A50048F2CA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE63D61E1714A50048F2CA /* MasterViewController.m */; };
-		0EAE63DA1E1714A50048F2CA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE63D91E1714A50048F2CA /* DetailViewController.m */; };
 		0EAE63DD1E1714A50048F2CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAE63DB1E1714A50048F2CA /* Main.storyboard */; };
 		0EAE63DF1E1714A50048F2CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAE63DE1E1714A50048F2CA /* Assets.xcassets */; };
 		0EAE63E21E1714A50048F2CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAE63E01E1714A50048F2CA /* LaunchScreen.storyboard */; };
 		0EAE63ED1E1714A50048F2CA /* LineChartApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE63EC1E1714A50048F2CA /* LineChartApp2Tests.m */; };
 		0EAE63F81E1714A60048F2CA /* LineChartApp2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE63F71E1714A60048F2CA /* LineChartApp2UITests.m */; };
+		0EAE640B1E1717270048F2CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE64061E1717270048F2CA /* ViewController.m */; };
+		0EAE640C1E1717270048F2CA /* XGChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE64081E1717270048F2CA /* XGChart.m */; };
+		0EAE640D1E1717270048F2CA /* XGChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE640A1E1717270048F2CA /* XGChartConfiguration.m */; };
+		0EAE64151E171B000048F2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE640F1E171B000048F2CA /* Foundation.framework */; };
+		0EAE64161E171B000048F2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE640F1E171B000048F2CA /* Foundation.framework */; };
+		0EAE64171E171B000048F2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE640F1E171B000048F2CA /* Foundation.framework */; };
+		0EAE64181E171B000048F2CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE64101E171B000048F2CA /* CoreGraphics.framework */; };
+		0EAE64191E171B000048F2CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE64101E171B000048F2CA /* CoreGraphics.framework */; };
+		0EAE641A1E171B000048F2CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE64101E171B000048F2CA /* CoreGraphics.framework */; };
+		0EAE641B1E171B000048F2CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE64111E171B000048F2CA /* QuartzCore.framework */; };
+		0EAE641C1E171B000048F2CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE64111E171B000048F2CA /* QuartzCore.framework */; };
+		0EAE641D1E171B000048F2CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE64111E171B000048F2CA /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E8C2AB81E253CE20014BFBF /* Sleep on it.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sleep on it.jpg"; sourceTree = "<group>"; };
+		0E8C2ABA1E253D4C0014BFBF /* Sleep on it2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sleep on it2.jpg"; sourceTree = "<group>"; };
 		0EAE63C91E1714A50048F2CA /* LineChartApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChartApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAE63CD1E1714A50048F2CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EAE63CF1E1714A50048F2CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EAE63D01E1714A50048F2CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0EAE63D31E1714A50048F2CA /* LineChartApp2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LineChartApp2.xcdatamodel; sourceTree = "<group>"; };
-		0EAE63D51E1714A50048F2CA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		0EAE63D61E1714A50048F2CA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		0EAE63D81E1714A50048F2CA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		0EAE63D91E1714A50048F2CA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0EAE63DC1E1714A50048F2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EAE63DE1E1714A50048F2CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EAE63E11E1714A50048F2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +66,15 @@
 		0EAE63F31E1714A60048F2CA /* LineChartApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineChartApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAE63F71E1714A60048F2CA /* LineChartApp2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineChartApp2UITests.m; sourceTree = "<group>"; };
 		0EAE63F91E1714A60048F2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EAE64051E1717270048F2CA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EAE64061E1717270048F2CA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EAE64071E1717270048F2CA /* XGChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGChart.h; sourceTree = "<group>"; };
+		0EAE64081E1717270048F2CA /* XGChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGChart.m; sourceTree = "<group>"; };
+		0EAE64091E1717270048F2CA /* XGChartConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGChartConfiguration.h; sourceTree = "<group>"; };
+		0EAE640A1E1717270048F2CA /* XGChartConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGChartConfiguration.m; sourceTree = "<group>"; };
+		0EAE640F1E171B000048F2CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation.framework; sourceTree = "<group>"; };
+		0EAE64101E171B000048F2CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreGraphics.framework; sourceTree = "<group>"; };
+		0EAE64111E171B000048F2CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAE641B1E171B000048F2CA /* QuartzCore.framework in Frameworks */,
+				0EAE64181E171B000048F2CA /* CoreGraphics.framework in Frameworks */,
+				0EAE64151E171B000048F2CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAE641C1E171B000048F2CA /* QuartzCore.framework in Frameworks */,
+				0EAE64191E171B000048F2CA /* CoreGraphics.framework in Frameworks */,
+				0EAE64161E171B000048F2CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +102,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAE641D1E171B000048F2CA /* QuartzCore.framework in Frameworks */,
+				0EAE641A1E171B000048F2CA /* CoreGraphics.framework in Frameworks */,
+				0EAE64171E171B000048F2CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +118,9 @@
 				0EAE63EB1E1714A50048F2CA /* LineChartApp2Tests */,
 				0EAE63F61E1714A60048F2CA /* LineChartApp2UITests */,
 				0EAE63CA1E1714A50048F2CA /* Products */,
+				0EAE640F1E171B000048F2CA /* Foundation.framework */,
+				0EAE64101E171B000048F2CA /* CoreGraphics.framework */,
+				0EAE64111E171B000048F2CA /* QuartzCore.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,14 +137,18 @@
 		0EAE63CB1E1714A50048F2CA /* LineChartApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				0EAE64051E1717270048F2CA /* ViewController.h */,
+				0EAE64061E1717270048F2CA /* ViewController.m */,
+				0EAE64071E1717270048F2CA /* XGChart.h */,
+				0EAE64081E1717270048F2CA /* XGChart.m */,
+				0EAE64091E1717270048F2CA /* XGChartConfiguration.h */,
+				0EAE640A1E1717270048F2CA /* XGChartConfiguration.m */,
 				0EAE63CF1E1714A50048F2CA /* AppDelegate.h */,
 				0EAE63D01E1714A50048F2CA /* AppDelegate.m */,
-				0EAE63D51E1714A50048F2CA /* MasterViewController.h */,
-				0EAE63D61E1714A50048F2CA /* MasterViewController.m */,
-				0EAE63D81E1714A50048F2CA /* DetailViewController.h */,
-				0EAE63D91E1714A50048F2CA /* DetailViewController.m */,
 				0EAE63DB1E1714A50048F2CA /* Main.storyboard */,
 				0EAE63DE1E1714A50048F2CA /* Assets.xcassets */,
+				0E8C2AB81E253CE20014BFBF /* Sleep on it.jpg */,
+				0E8C2ABA1E253D4C0014BFBF /* Sleep on it2.jpg */,
 				0EAE63E01E1714A50048F2CA /* LaunchScreen.storyboard */,
 				0EAE63E31E1714A50048F2CA /* Info.plist */,
 				0EAE63D21E1714A50048F2CA /* LineChartApp2.xcdatamodeld */,
@@ -210,7 +245,7 @@
 		0EAE63C11E1714A50048F2CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "R Prakash";
 				TargetAttributes = {
 					0EAE63C81E1714A50048F2CA = {
@@ -258,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EAE63E21E1714A50048F2CA /* LaunchScreen.storyboard in Resources */,
+				0E8C2AB91E253CE20014BFBF /* Sleep on it.jpg in Resources */,
 				0EAE63DF1E1714A50048F2CA /* Assets.xcassets in Resources */,
 				0EAE63DD1E1714A50048F2CA /* Main.storyboard in Resources */,
+				0E8C2ABB1E253D4C0014BFBF /* Sleep on it2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAE63DA1E1714A50048F2CA /* DetailViewController.m in Sources */,
-				0EAE63D71E1714A50048F2CA /* MasterViewController.m in Sources */,
 				0EAE63D11E1714A50048F2CA /* AppDelegate.m in Sources */,
+				0EAE640C1E1717270048F2CA /* XGChart.m in Sources */,
+				0EAE640D1E1717270048F2CA /* XGChartConfiguration.m in Sources */,
 				0EAE63CE1E1714A50048F2CA /* main.m in Sources */,
+				0EAE640B1E1717270048F2CA /* ViewController.m in Sources */,
 				0EAE63D41E1714A50048F2CA /* LineChartApp2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +399,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -409,6 +448,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -437,8 +477,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FAYLU3BK3Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LineChartApp2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RashmiP.LineChartApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,8 +495,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FAYLU3BK3Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LineChartApp2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RashmiP.LineChartApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +514,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FAYLU3BK3Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LineChartApp2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RashmiP.LineChartApp2Tests;
@@ -475,6 +531,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FAYLU3BK3Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LineChartApp2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RashmiP.LineChartApp2Tests;
@@ -487,6 +547,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = FAYLU3BK3Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LineChartApp2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RashmiP.LineChartApp2UITests;
@@ -499,6 +563,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = FAYLU3BK3Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LineChartApp2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RashmiP.LineChartApp2UITests;
@@ -526,6 +594,7 @@
 				0EAE63FE1E1714A60048F2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EAE63FF1E1714A60048F2CA /* Build configuration list for PBXNativeTarget "LineChartApp2Tests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +603,7 @@
 				0EAE64011E1714A60048F2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EAE64021E1714A60048F2CA /* Build configuration list for PBXNativeTarget "LineChartApp2UITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +612,7 @@
 				0EAE64041E1714A60048F2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
